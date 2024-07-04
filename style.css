@@ -1,0 +1,520 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+
+
+/* body{
+    overflow: hidden;
+} */
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 38.75px 169.79px;
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+    /* background-color: #4851FF; */
+}
+
+.get_started_btn{
+    width: 167px; height: 56px;
+    border-radius: 28px;
+    background-color: #13183F;
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+
+.get_started_btn:hover{
+    background-color: #666CA3;
+}
+
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 165px;
+    padding-right: 219px;
+    padding-top: 168.25px;
+    padding-bottom: 134px;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+
+
+.about_skilled {
+    width: 457px;
+}
+
+.about_skilled h1 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #13183F;
+    font-size: 56px;
+    font-weight: 800;
+    margin-bottom: 29px;
+}
+
+.about_skilled p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 445px;
+    line-height: 28px;
+    color: #83869A;
+    margin-bottom: 40px;
+}
+
+.about_skilled button {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+
+.about_skilled button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+
+
+.actress_img {
+    width: 317px; height: 560px;
+    position: relative;
+}
+
+.img_background {
+    width: 317px; height: 560px;
+    border-radius: 158.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    position: absolute;
+    z-index: 2;
+    /* background-image: url(./assets/image-removebg-preview\(509\).png);
+    background-size: 100% 100%; */
+}
+
+.img {
+    width: 100%; height: 100%;
+    border-radius: 158.5px;
+    background-image: url(./assets/image-removebg-preview\(509\).png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    z-index: 3;
+}
+
+.purple_background {
+    width: 317px; height: 1008px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    position: absolute;
+    z-index: 1;
+    bottom: 50px;
+    right: 110px;
+    border-radius: 158.5px;
+    transform-origin: bottom;
+    transform: rotate(45deg);
+}
+
+.members {
+    width: 155px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    position: absolute;
+    z-index: 4;
+    right: -100px;
+    top: 90px;
+    background-color: white;
+    padding: 20px 0px 20px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h6 {
+    color: #83869A;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700;
+}
+
+.strong_for_img {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #13183F;
+}
+
+
+.course_hours {
+    width: 199px;
+    height: 120px;
+    border-radius: 15px;
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+    position: absolute;
+    z-index: 4;
+    background-color: white;
+    padding: 20px 0px 20px 24px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    bottom: 98px;
+    left: -120px;
+}
+
+
+.popular_courses {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 322px 322px;
+    column-gap: 30px; 
+    row-gap: 80px;
+    /* background-color: red; */
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+    padding-bottom: 140px;
+    box-sizing: border-box;
+}
+
+
+.popular_courses div {
+    /* background-color: #fff; */
+    border-radius: 15px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
+/* .popular_courses:first-child {
+    background-color: red !important;
+} */
+
+.check_out_more {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    padding: 64px 32px 0px 32px;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 40px;
+    color: #fff;
+}
+
+.course {
+    background-color: #fff;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    padding: 64px 32px 40px 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.course_svg {
+    position: absolute;
+    top: -28px;
+}
+
+
+
+
+h2 {
+    font-size: 24px;
+    font-weight: 800;
+    color: #13183F;
+    /* margin-bottom: 24px; */
+}
+
+.course p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #83869A;
+    line-height: 28px;
+    /* margin-bottom: 24px; */
+}
+
+.course a {
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.course a:hover {
+    color: #FFA7C3;
+}
+
+
+footer {
+    width: 100%;
+    height: 120px;
+    background-color: #13183F;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 165.79px;
+    padding-right: 165px;
+    box-sizing: border-box;
+}
+
+footer button {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+footer button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.50) 0%, rgba(255, 255, 255, 0.50) 100%), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+
+
+
+
+
+/* responsive for tablet   !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+
+
+
+
+
+@media only screen and (max-width: 1180px) {
+
+
+.get_started_btn{
+    width: 140px; height: 48px;
+    border-radius: 28px;
+
+}
+
+nav{
+    padding: 39px 24px;
+}
+
+
+main {
+    padding-left: 39px ;
+    padding-right: 80px;
+    padding-top: 168.25px;
+    padding-bottom: 134px;
+    
+} 
+
+.about_skilled {
+    width: 398px;
+}
+
+.about_skilled h1 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.about_skilled p {
+    font-size: 16px;
+    width: 398px;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+
+.about_skilled button {
+    width: 167px;
+    height: 56px;
+}
+
+.actress_img {
+    width: 216.54px; height: 382.531px;
+}
+
+
+.img_background {
+    width: 100%; height: 100%;
+    border-radius: 158.5px;
+}
+
+.img {
+    background-size: 100% 330px;
+}
+
+.purple_background {
+    width: 216.54px; height: 688.557px;
+    bottom: 50px;
+    right: 70px;
+}
+
+.members {
+    width: 105px;
+    height: 100px;
+    border-radius: 10px;
+    right: -50px;
+    top: -20px;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+h6 {
+    font-size: 14px;
+}
+
+.strong_for_img {
+    
+    font-size: 32px;
+}
+
+.course_hours {
+    width: 155px;
+    height: 100px;
+    border-radius: 10px;
+    padding: 16px 0px 16px 20px;
+    bottom: -40px;
+    left: -50px;
+}
+
+.popular_courses {
+    grid-template-columns: 339px 339px ;
+    grid-template-rows: 259px 259px 259px;
+    column-gap: 10px; 
+    row-gap: 56px;
+    padding-bottom: 85px;
+}
+
+
+.popular_courses div {
+    border-radius: 10px;
+}
+
+
+.check_out_more {
+    padding: 56px 22 0px 32px;
+    font-size: 24px;
+
+}
+
+
+.course {
+    padding: 56px 22px 32px 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.course p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+footer {
+    padding: 36px 39px;
+}
+
+footer button {
+    width: 140px; height: 48px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/* responsive fore mobile  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+
+
+@media only screen and (max-width: 730px) {
+
+    nav{
+        padding: 16px;
+    }
+
+    main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 102px 16px;
+        box-sizing: border-box;   
+        gap: 70px;     
+    }
+    
+    .about_skilled {
+        width: 343px;
+    }
+
+    .about_skilled p {
+
+        width: 343px;
+
+    }
+
+    .actress_img {
+        width: 253px; height: 253px;
+    }
+
+    .img {
+        background-size: 238px 330px;
+        background-position: 18px 15px;
+    }
+
+    .purple_background {
+        display: none;
+    }
+    
+    .members {
+        right: -35px;
+        top: -30px;
+    }
+
+    .course_hours {
+        bottom: -30px;
+        left: -40px;
+    }
+    
+
+    .popular_courses {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px 16px;
+        padding-bottom: 80px;
+    }
+
+    .check_out_more {
+        padding: 24px 29px 0px 29px;
+        height: 120px;
+    
+    }
+
+    .course {
+        width: 100%;
+        height: 259px;
+    }
+
+
+    footer {
+        padding: 36px 16px;
+    }
+    
+}
